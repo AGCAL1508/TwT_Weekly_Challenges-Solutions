@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):i();a=float(i());b=round(sum(map(lambda x:int(x)*a,i().split())),2);print([5+int(b-(b%5)),int(b)][b%5<=0])

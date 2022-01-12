@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):b,p=i().split();print(abs(ord(b[0])-ord(p[0]))==abs(int(b[1])-int(p[1])))

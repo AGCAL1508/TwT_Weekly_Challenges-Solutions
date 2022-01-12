@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):print(__import__("re").sub(r'[0-9]','',i()))

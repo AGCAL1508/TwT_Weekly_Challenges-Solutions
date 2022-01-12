@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):s=i().replace("=", "");l=([chr(a)for a in range(65,91)]+[chr(a) for a in range(97, 123)]+list(map(str, range(0, 10)))+["+", "/"]);d="".join([bin(l.index(b))[2:].zfill(6)for b in s]);print("".join([chr(int(d[e:e+8],2))for e in range(0,len(d),8)]).replace("\x00",""),sep="",)

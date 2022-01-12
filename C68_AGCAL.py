@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):b=i();print(*[int(b[a])*b[a+1]for a in range(0,len(b),2)],sep='')

@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):n=i();print("".join(l*(ord(l.lower())-96)for l in n[::-1]))

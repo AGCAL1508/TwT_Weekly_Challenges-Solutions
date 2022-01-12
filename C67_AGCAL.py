@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):print(*[a for a in i().split()if set(a).issubset("-1234567890ABCDEF")])
